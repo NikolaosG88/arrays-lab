@@ -157,7 +157,7 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 let odds = [];
 
 for (let i = 0; i < nums.length; i++) {
-    if (nums[i] / 2 !==0) {
+    if (nums[i] % 2 !==0) {
         odds.push(nums[i]);
     }
 }
@@ -200,7 +200,6 @@ console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
 console.log('  buzz:', buzz);
 console.log('  fizzbuzz:', fizzbuzz);
-
 console.log('__________13______________');
 console.log('__________14______________');
 console.log('__________15______________');
